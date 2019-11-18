@@ -1,1 +1,23 @@
+<html>
+<body>
+     <link rel="stylesheet" type="text/css" href="style.css" />
+<h1 id=head>General Outline for D3</h1>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    
+    <div></div>
+    
+<p>With any given layout in d3, one must first start with a data set. This can either be created in the file or retrieved through a promise. Following the identification of the dataset, one needs to either create an svg element in HTML or through appending it in D3. Next, one might want to use d3 to append a group element to this newly created SVG and provide it with any desired attributes or styling techniques. It is to the group element that the data should be bound. Now, what goes inside this group element is dependent on the type of visualization that one is working to create. If it is the pie layout, one would append paths while a bar chart would append rectangles. In some cases, it may be necessary to bind a subset of data to these elements. This is then followed by a set of attributes that, again, are unique to the task.</p>
 
+    <h1 id=header>Basic Layout of d3</h1>
+<ol>
+ <li>Identify Data Set</li>
+<li>Append or create SVG</li>
+<li>Append Group Element</li>
+<li>Bind Data</li>
+<li>Append Task Specific Element to SVG</li>
+<li>Apply Any Needed Attributes</li>
+</ol>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
